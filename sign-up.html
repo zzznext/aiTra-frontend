@@ -1,0 +1,136 @@
+<!doctype html>
+<!--
+* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
+* @version 1.0.0-beta19
+* @link https://tabler.io
+* Copyright 2018-2023 The Tabler Authors
+* Copyright 2018-2023 codecalm.net Paweł Kuna
+* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Sign up - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.</title>
+    <!-- CSS files -->
+    <link href="dist/css/tabler.min.css?1684106062" rel="stylesheet"/>
+    <link href="dist/css/tabler-flags.min.css?1684106062" rel="stylesheet"/>
+    <link href="dist/css/tabler-payments.min.css?1684106062" rel="stylesheet"/>
+    <link href="dist/css/tabler-vendors.min.css?1684106062" rel="stylesheet"/>
+    <link href="dist/css/demo.min.css?1684106062" rel="stylesheet"/>
+    <style>
+        @import url('https://rsms.me/inter/inter.css');
+
+        :root {
+            --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+        }
+
+        body {
+            font-feature-settings: "cv03", "cv04", "cv11";
+        }
+    </style>
+</head>
+<body class=" d-flex flex-column">
+<script src="。./dist/js/demo-theme.min.js?1684106062"></script>
+<div class="page page-center">
+    <div class="container container-tight py-4">
+        <div class="text-center mb-4">
+            <a href="src" class="navbar-brand navbar-brand-autodark"><img src="../static/logo.svg" height="36"
+                                                                          alt=""></a>
+        </div>
+        <form class="card card-md" action="src" method="get" autocomplete="off" novalidate>
+            <div class="card-body">
+                <h2 class="card-title text-center mb-4">创建账号</h2>
+                <div class="mb-3">
+                    <label class="form-label">用户名</label>
+                    <input type="text" class="form-control" placeholder="请输入用户名(4-16个字符)">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">电子邮件地址</label>
+                    <input type="email" class="form-control" placeholder="请输入邮件">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">密码</label>
+                    <div class="input-group input-group-flat">
+                        <input type="password" class="form-control" placeholder="请输入密码(6-18个字符)"
+                               autocomplete="off">
+                        <span class="input-group-text">
+                  <a href="#" class="link-secondary" title="Show password" data-bs-toggle="tooltip"><!-- Download SVG icon from http://tabler-icons.io/i/eye -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                         stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                         stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path
+                            d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"/><path
+                            d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"/></svg>
+                  </a>
+                </span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-check">
+                        <input type="checkbox" class="form-check-input" id="agreeCheckbox"/>
+                        <span class="form-check-label">请同意 <a href="../terms-of-service.html"
+                                                                 tabindex="-1">隐私政策</a>.</span>
+                    </label>
+                </div>
+                <div class="form-footer">
+                    <button type="submit" class="btn btn-primary w-100" id="registerButton" disabled>创建新账号</button>
+                </div>
+            </div>
+        </form>
+        <div class="text-center text-muted mt-3">
+            已经有账号了? <a href="sign-in.html" tabindex="-1">登录</a>
+        </div>
+    </div>
+</div>
+<!-- Libs JS -->
+<!-- Tabler Core -->
+<script src="dist/js/tabler.min.js?1684106062" defer></script>
+<script src="dist/js/demo.min.js?1684106062" defer></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('form').on('submit', function (event) {
+            event.preventDefault(); // 防止表单默认提交
+            var username = $('input[placeholder="请输入用户名(4-16个字符)"]').val();
+            var email = $('input[placeholder="请输入邮件"]').val();
+            var password = $('input[placeholder="请输入密码(6-18个字符)"]').val();
+            $.ajax({
+                url: 'http://127.0.0.1:8080/api/register',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    username: username,
+                    email: email,
+                    password: password
+                }),
+                success: function (response) {
+                    alert('注册成功');
+                    // 可选：重定向到登录页面或其他页面
+                    window.location.href = 'sign-in.html';
+                },
+                error: function (xhr, status, error) {
+                    try {
+                        var responseJson = JSON.parse(xhr.responseText);
+                        alert('注册失败: ' + responseJson.error);
+                    } catch (e) {
+                        alert('注册失败: ' + xhr.responseText);
+                    }
+                }
+            });
+        });
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+        const agreeCheckbox = document.getElementById('agreeCheckbox');
+        const registerButton = document.getElementById('registerButton');
+
+        agreeCheckbox.addEventListener('change', function () {
+            registerButton.disabled = !agreeCheckbox.checked;
+        });
+    });
+</script>
+
+</body>
+</html>

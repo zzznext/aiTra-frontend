@@ -1,0 +1,770 @@
+<!doctype html>
+<!--
+* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
+* @version 1.0.0-beta19
+* @link https://tabler.io
+* Copyright 2018-2023 The Tabler Authors
+* Copyright 2018-2023 codecalm.net Paweł Kuna
+* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
+-->
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>aiTra-聚合翻译-提供迅速、准确的翻译内容！</title>
+    <!-- CSS files -->
+    <link href="dist/css/tabler.min.css?1684106062" rel="stylesheet"/>
+    <link href="dist/css/tabler-flags.min.css?1684106062" rel="stylesheet"/>
+    <link href="dist/css/tabler-payments.min.css?1684106062" rel="stylesheet"/>
+    <link href="dist/css/tabler-vendors.min.css?1684106062" rel="stylesheet"/>
+    <link href="dist/css/demo.min.css?1684106062" rel="stylesheet"/>
+    <style>
+        @import url('https://rsms.me/inter/inter.css');
+
+        :root {
+            --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+        }
+
+        body {
+            font-feature-settings: "cv03", "cv04", "cv11";
+        }
+    </style>
+</head>
+<body>
+<script src="./dist/js/demo-theme.min.js?1684106062"></script>
+<div class="page">
+    <!-- Navbar 包括一切最顶上的东西-->
+    <header class="navbar navbar-expand-md d-print-none">
+        <div class="container-xl">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
+                    aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
+                <a href="./index.html">
+                    aiTra
+                </a>
+            </h1>
+            <!--          源代码和支持-->
+            <div class="navbar-nav flex-row order-md-last">
+                <div class="nav-item d-none d-md-flex me-3">
+                    <div class="btn-list">
+                        <a href="#" class="btn" target="_blank" rel="noreferrer">
+                            <!-- Download SVG icon from http://tabler-icons.io/i/brand-github -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"/>
+                            </svg>
+                            源代码
+                        </a>
+                        <a href="#" class="btn" target="_blank" rel="noreferrer">
+                            <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon text-pink" width="24" height="24"
+                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"/>
+                            </svg>
+                            支持
+                        </a>
+                    </div>
+                </div>
+                <!--            两个按钮-->
+                <div class="d-none d-md-flex">
+                    <a href="?theme=dark" class="nav-link px-0 hide-theme-dark" title="Enable dark mode"
+                       data-bs-toggle="tooltip"
+                       data-bs-placement="bottom">
+                        <!-- Download SVG icon from http://tabler-icons.io/i/moon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                             stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                             stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"/>
+                        </svg>
+                    </a>
+                    <a href="?theme=light" class="nav-link px-0 hide-theme-light" title="Enable light mode"
+                       data-bs-toggle="tooltip"
+                       data-bs-placement="bottom">
+                        <!-- Download SVG icon from http://tabler-icons.io/i/sun -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                             stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                             stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/>
+                            <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"/>
+                        </svg>
+                    </a>
+                    <div class="nav-item dropdown d-none d-md-flex me-3">
+                        <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1"
+                           aria-label="Show notifications">
+                            <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"/>
+                                <path d="M9 17v1a3 3 0 0 0 6 0v-1"/>
+                            </svg>
+                            <span class="badge bg-red"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-end dropdown-menu-card">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3 class="card-title">Last updates</h3>
+                                </div>
+                                <div class="list-group list-group-flush list-group-hoverable">
+                                    <div class="list-group-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto"><span
+                                                    class="status-dot status-dot-animated bg-red d-block"></span></div>
+                                            <div class="col text-truncate">
+                                                <a href="#" class="text-body d-block">Example 1</a>
+                                                <div class="d-block text-muted text-truncate mt-n1">
+                                                    Change deprecated html tags to text decoration classes (#29604)
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="#" class="list-group-item-actions">
+                                                    <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted"
+                                                         width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                         stroke="currentColor" fill="none" stroke-linecap="round"
+                                                         stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-group-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto"><span class="status-dot d-block"></span></div>
+                                            <div class="col text-truncate">
+                                                <a href="#" class="text-body d-block">Example 2</a>
+                                                <div class="d-block text-muted text-truncate mt-n1">
+                                                    justify-content:between ⇒ justify-content:space-between (#29734)
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="#" class="list-group-item-actions show">
+                                                    <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon text-yellow"
+                                                         width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                                                         stroke="currentColor" fill="none" stroke-linecap="round"
+                                                         stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--            登录头像 隐藏ing-->
+                <div class="nav-item dropdown d-none" id="user-info">
+                    <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown"
+                       aria-label="Open user menu">
+                        <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)"></span>
+                        <div class="d-none d-xl-block ps-2">
+                            <div id="user-email"></div>
+                            <div class="mt-1 small text-muted">UI Designer</div>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                        <a href="#" class="dropdown-item" >Status</a>
+                        <a href="acenter.html" class="dropdown-item" >账号中心</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="settings.html" class="dropdown-item">Settings</a>
+                        <a  class="dropdown-item" id="logout-button">退出登录</a>
+                    </div>
+                </div>
+
+                <!-- 登录按钮 -->
+                <div class="nav-item d-none d-md-flex">
+                    <a href="sign-in.html" class="btn btn-outline-primary me-2" id="login-button">登录</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!--      导航栏区域-->
+    <header class="navbar-expand-md">
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <div class="navbar">
+                <div class="container-xl">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="src">
+                    <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                           stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                           stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path
+                              d="M5 12l-2 0l9 -9l9 9l-2 0"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"/><path
+                              d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"/></svg>
+                    </span>
+                                <span class="nav-link-title">
+                      主页
+                    </span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown"
+                               data-bs-auto-close="outside" role="button" aria-expanded="false">
+                    <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/package -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                           stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                           stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path
+                              d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5"/><path d="M12 12l8 -4.5"/><path
+                              d="M12 12l0 9"/><path d="M12 12l-8 -4.5"/><path d="M16 5.25l-8 4.5"/></svg>
+                    </span>
+                                <span class="nav-link-title">
+                      内容1
+                    </span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-menu-columns">
+                                    <div class="dropdown-menu-column">
+                                        <a class="dropdown-item" href="./accordion.html">
+                                            内容2
+                                        </a>
+
+                                        <div class="dropend">
+                                            <a class="dropdown-item dropdown-toggle" href="#sidebar-cards"
+                                               data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button"
+                                               aria-expanded="false">
+                                                内容3
+                                                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a href="./cards.html" class="dropdown-item">
+                                                    内容4
+                                                </a>
+                                                <a href="./card-actions.html" class="dropdown-item">
+                                                    内容5
+                                                    <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
+                                                </a>
+                                                <a href="./cards-masonry.html" class="dropdown-item">
+                                                    内容6
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="dropdown-menu-column">
+                                        <a class="dropdown-item" href="./placeholder.html">
+                                            内容7
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./form-elements.html">
+                    <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                           stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                           stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path
+                              d="M9 11l3 3l8 -8"/><path
+                              d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"/></svg>
+                    </span>
+                                <span class="nav-link-title">
+                      内容8
+                    </span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#navbar-extra" data-bs-toggle="dropdown"
+                               data-bs-auto-close="outside" role="button" aria-expanded="false">
+                    <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                           stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                           stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path
+                              d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/></svg>
+                    </span>
+                                <span class="nav-link-title">
+                      内容9
+                    </span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-menu-columns">
+                                    <div class="dropdown-menu-column">
+                                        <a class="dropdown-item" href="./empty.html">
+                                            内容10
+                                        </a>
+
+                                    </div>
+                                    <div class="dropdown-menu-column">
+                                        <a class="dropdown-item" href="./logs.html">
+                                            内容11
+                                            <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#navbar-layout" data-bs-toggle="dropdown"
+                               data-bs-auto-close="outside" role="button" aria-expanded="false">
+                    <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/layout-2 -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                           stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                           stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path
+                              d="M4 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"/><path
+                              d="M4 13m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"/><path
+                              d="M14 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"/><path
+                              d="M14 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"/></svg>
+                    </span>
+                                <span class="nav-link-title">
+                      内容12
+                    </span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-menu-columns">
+                                    <div class="dropdown-menu-column">
+                                        <a class="dropdown-item" href="./layout-horizontal.html">
+                                            内容13
+                                        </a>
+
+                                    </div>
+                                    <div class="dropdown-menu-column">
+                                        <a class="dropdown-item" href="./layout-navbar-dark.html">
+
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#navbar-help" data-bs-toggle="dropdown"
+                               data-bs-auto-close="outside" role="button" aria-expanded="false">
+                    <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/lifebuoy -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                           stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                           stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path
+                              d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path
+                              d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M15 15l3.35 3.35"/><path
+                              d="M9 15l-3.35 3.35"/><path d="M5.65 5.65l3.35 3.35"/><path
+                              d="M18.35 5.65l-3.35 3.35"/></svg>
+                    </span>
+                                <span class="nav-link-title">
+                      内容15
+                    </span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#" target="_blank" rel="noopener">
+                                    文档
+                                </a>
+                                <a class="dropdown-item text-pink" href="#"
+                                   target="_blank" rel="noopener">
+                                    <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-inline me-1" width="24"
+                                         height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                         fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"/>
+                                    </svg>
+                                    支持！
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="my-2 my-md-0 flex-grow-1 flex-md-grow-0 order-first order-md-last">
+                        <form action="src" method="get" autocomplete="off" novalidate>
+                            <div class="input-icon">
+                    <span class="input-icon-addon">
+                      <!-- Download SVG icon from http://tabler-icons.io/i/search -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                           stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                           stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path
+                              d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"/><path d="M21 21l-6 -6"/></svg>
+                    </span>
+                                <input type="text" value="" class="form-control" placeholder="Search…"
+                                       aria-label="Search in website">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--      主内容和页脚-->
+    <div class="page-wrapper">
+        <!-- Page header -->
+        <!-- Page header -->
+        <div class="page-header d-print-none">
+            <div class="container-xl">
+                <div class="row g-2 align-items-center">
+                    <div class="col">
+                        <div class="page-pretitle">
+                            Translation Interface
+                        </div>
+                        <h2 class="page-title">
+                            翻译界面
+                        </h2>
+                    </div>
+                    <div class="col-auto ms-auto d-print-none">
+                        <div class="btn-list">
+                            <div class="dropdown">
+                                <button id="translation-source-button" data-source="tencent"
+                                        class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                    腾讯翻译
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#" data-source="tencent">腾讯翻译</a></li>
+                                    <li><a class="dropdown-item" href="#" data-source="youdao">有道翻译</a></li>
+                                    <li><a class="dropdown-item" href="#" data-source="baidu">百度翻译</a></li>
+                                    <!-- Add more translation sources as needed -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page body -->
+        <div class="page-body">
+            <div class="container-xl">
+                <!-- Translation Interface -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="source-language">待翻译语言</label>
+                            <select id="source-language" class="form-select">
+                                <option value="auto">自动识别</option>
+                                <option value="zh">简体中文</option>
+                                <option value="en">英语</option>
+                                <option value="ja">日语</option>
+                                <!-- Add more languages as needed -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="source-text">待翻译内容</label>
+                            <textarea id="source-text" class="form-control" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="target-language">目标语言</label>
+                            <select id="target-language" class="form-select">
+                                <option value="en">英语</option>
+                                <option value="zh">简体中文</option>
+                                <option value="ja">日语</option>
+                                <!-- Add more languages as needed -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="target-text">翻译结果</label>
+                            <textarea id="target-text" class="form-control" rows="10" readonly></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12 text-center">
+                        <button id="translate-button" class="btn btn-primary">翻译</button>
+                        <button id="swap-languages-button" class="btn btn-secondary">切换语言</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page body -->
+<!--        <div class="page-body">-->
+<!--            <div class="container-xl">-->
+<!--                <div class="offcanvas offcanvas-bottom h-auto show" tabindex="-1" id="offcanvasBottom" aria-modal="true" role="dialog">-->
+<!--                    <div class="offcanvas-body">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row align-items-center">-->
+<!--                                <div class="col">-->
+<!--                                    <strong>你知道cookie吗?</strong> 🍪 我们将使用Cookie保持您的登录. <a href="./terms-of-service.html" target="_blank">了解更多</a>-->
+<!--                                </div>-->
+<!--                                <div class="col-auto">-->
+<!--                                    <button type="button" class="btn btn-primary" data-bs-dismiss="offcanvas">-->
+<!--                                        仅限基本Cookie-->
+<!--                                    </button>-->
+<!--                                </div>-->
+<!--                                <div class="col-auto">-->
+<!--                                    <button type="button" class="btn btn-primary" data-bs-dismiss="offcanvas">-->
+<!--                                        允许全部Cookie-->
+<!--                                    </button>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+        <!--        页脚内容-->
+        <footer class="footer footer-transparent d-print-none">
+            <div class="container-xl">
+                <div class="row text-center align-items-center flex-row-reverse">
+                    <div class="col-lg-auto ms-lg-auto">
+                        <ul class="list-inline list-inline-dots mb-0">
+                            <li class="list-inline-item"><a href="#" target="_blank"
+                                                            class="link-secondary" rel="noopener">文档</a></li>
+                            <li class="list-inline-item"><a href="./license.html" class="link-secondary">许可证</a>
+                            </li>
+                            <li class="list-inline-item"><a href="#" target="_blank"
+                                                            class="link-secondary" rel="noopener">源码</a></li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank" class="link-secondary"
+                                   rel="noopener">
+                                    <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="icon text-pink icon-filled icon-inline" width="24" height="24"
+                                         viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                         stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"/>
+                                    </svg>
+                                    支持
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-auto mt-3 mt-lg-0">
+                        <ul class="list-inline list-inline-dots mb-0">
+                            <li class="list-inline-item">
+                                Copyright &copy; 2024
+                                <a href="src" class="link-secondary">aiTra</a>.
+                                All rights reserved.
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="./changelog.html" class="link-secondary" rel="noopener">
+                                    v1.0.0
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- Libs JS -->
+<script src="dist/libs/apexcharts/dist/apexcharts.min.js?1684106062" defer></script>
+<script src="dist/libs/jsvectormap/dist/js/jsvectormap.min.js?1684106062" defer></script>
+<script src="dist/libs/jsvectormap/dist/maps/world.js?1684106062" defer></script>
+<script src="dist/libs/jsvectormap/dist/maps/world-merc.js?1684106062" defer></script>
+<!-- Tabler Core -->
+<script src="dist/js/tabler.min.js?1684106062" defer></script>
+<script src="dist/js/demo.min.js?1684106062" defer></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // 当用户点击“翻译”按钮时
+        $('#translate-button').click(function () {
+            // 获取翻译源
+            var translationSource = $('#translation-source-button').data('source');
+
+            // 获取待翻译语言
+            var sourceLanguage = $('#source-language').val();
+            //修改获取待翻译语言为auto
+            // var sourceLanguage = "auto";
+            // 获取目标语言
+            var targetLanguage = $('#target-language').val();
+
+            // 获取待翻译内容
+            var sourceText = $('#source-text').val();
+            var useremail = $('#user-email').text();
+            console.log("useremail``````````````" + useremail)
+
+            // 发送AJAX请求到后端
+            $.ajax({
+                url: 'http://localhost:8080/translate', // 后端翻译API的URL
+                method: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    translationSource: translationSource,
+                    sourceLanguage: sourceLanguage,
+                    targetLanguage: targetLanguage,
+                    sourceText: sourceText,
+                    userEmail: useremail
+                }),
+                success: function (response) {
+                    // 将翻译结果显示在目标文本区域
+                    $('#target-text').val(response.translatedText);
+                },
+                error: function (xhr, status, error) {
+                    console.error('翻译请求失败:', error);
+                }
+            });
+        });
+
+    });
+</script>
+
+<script>
+    document.getElementById('swap-languages-button').addEventListener('click', function () {
+        const sourceLangSelect = document.getElementById('source-language');
+        const targetLangSelect = document.getElementById('target-language');
+        const sourceText = document.getElementById('source-text').value;
+        const targetText = document.getElementById('target-text').value;
+
+        if (sourceLangSelect.value === "auto") {
+            sourceLangSelect.value = targetLangSelect.value;
+            if (sourceLangSelect.value !== "zh") {
+                targetLangSelect.value = "zh";
+            } else {
+                targetLangSelect.value = "en";
+            }
+
+            // Swap the text areas
+            document.getElementById('source-text').value = targetText;
+            document.getElementById('target-text').value = "";
+        } else {
+            // Swap the selected languages
+            const tempLang = sourceLangSelect.value;
+            sourceLangSelect.value = targetLangSelect.value;
+            targetLangSelect.value = tempLang;
+
+            // Swap the text areas
+            document.getElementById('source-text').value = targetText;
+            document.getElementById('target-text').value = sourceText;
+        }
+
+    });
+
+
+    let currentTranslationSource = 'tencent'; // Default translation source
+    $(document).ready(function () {
+        // 切换翻译源
+        $('.dropdown-item').click(function (event) {
+            const source = $(this).data('source');
+            if (!source) {
+                // 如果没有data-source属性，直接执行默认行为
+                return;
+            }
+
+            event.preventDefault();
+            const translationButtonText = $('#translation-source-button');
+
+            switch (source) {
+                case 'tencent':
+                    translationButtonText.text("腾讯翻译");
+                    break;
+                case 'youdao':
+                    translationButtonText.text("有道翻译");
+                    break;
+                case 'baidu':
+                    translationButtonText.text("百度翻译");
+                    break;
+                default:
+                    alert("错误");
+                    return;
+            }
+            // 更新按钮的data-source属性
+            translationButtonText.data('source', source);
+        });
+    });
+
+    document.getElementById('source-language').addEventListener('change', function () {
+        const sourceLanguageSelect = document.getElementById('source-language');
+        const targetLanguageSelect = document.getElementById('target-language');
+        const selectedLanguage = sourceLanguageSelect.value;
+        const targetLanguage = targetLanguageSelect.value;
+
+        // 如果待翻译语言和目标语言相同，则自动更改目标语言
+        if (selectedLanguage === targetLanguage) {
+            // 选择一个不同于待翻译语言的默认目标语言
+            for (let option of targetLanguageSelect.options) {
+                if (option.value !== selectedLanguage) {
+                    targetLanguageSelect.value = option.value;
+                    break;
+                }
+            }
+        }
+
+        console.log('Selected language:', selectedLanguage);
+        console.log('Target language:', targetLanguage);
+        // 你可以在这里添加更多的逻辑处理
+    });
+    document.getElementById('target-language').addEventListener('change', function () {
+        const sourceLanguageSelect = document.getElementById('source-language');
+        const targetLanguageSelect = document.getElementById('target-language');
+        const selectedLanguage = sourceLanguageSelect.value;
+        const targetLanguage = targetLanguageSelect.value;
+
+        // 如果待翻译语言和目标语言相同，则自动更改目标语言
+        if (selectedLanguage === targetLanguage) {
+            // 选择一个不同于待翻译语言的默认目标语言
+            for (let option of sourceLanguageSelect.options) {
+                if (option.value !== selectedLanguage) {
+                    sourceLanguageSelect.value = option.value;
+                    break;
+                }
+            }
+        }
+
+        console.log('Selected language:', selectedLanguage);
+        console.log('Target language:', targetLanguage);
+        // 你可以在这里添加更多的逻辑处理
+    });
+</script>
+
+<script>
+
+    $(document).ready(function () {
+
+        // Perform the AJAX request to check the login status
+        $.ajax({
+            url: 'http://localhost:8080/user/status',
+            method: 'GET',
+            xhrFields: {
+                withCredentials: true
+            },
+            crossDomain: true,
+            success: function (response) {
+                if (response.status === 'logged_in') {
+                    $('#login-button').hide();
+                    $('#user-email').text(response.useremail);
+                    $('#user-info').removeClass('d-none');
+                } else {
+                    $('#login-button').show();
+                    $('#user-info').addClass('d-none');
+                }
+            },
+            error: function () {
+                console.error('Error checking login status');
+            }
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('#logout-button').click(function (event) {
+            event.preventDefault();
+            $.ajax({
+                url: 'http://localhost:8080/alogout',
+                type: 'POST',
+                xhrFields: {
+                    withCredentials: true
+                },
+                crossDomain: true,
+                success: function (response) {
+
+                   window.location.href = './index.html';
+                },
+                error: function (xhr, status, error) {
+                    alert('退出登录失败，请重试。');
+                }
+            });
+        });
+    });
+
+</script>
+</body>
+</html>
