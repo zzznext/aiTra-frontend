@@ -1,0 +1,651 @@
+<!doctype html>
+<!--
+* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
+* @version 1.0.0-beta19
+* @link https://tabler.io
+* Copyright 2018-2023 The Tabler Authors
+* Copyright 2018-2023 codecalm.net Paweł Kuna
+* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Settings - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.</title>
+    <!-- CSS files -->
+    <link href="./dist/css/tabler.min.css?1684106062" rel="stylesheet"/>
+    <link href="./dist/css/tabler-flags.min.css?1684106062" rel="stylesheet"/>
+    <link href="./dist/css/tabler-payments.min.css?1684106062" rel="stylesheet"/>
+    <link href="./dist/css/tabler-vendors.min.css?1684106062" rel="stylesheet"/>
+    <link href="./dist/css/demo.min.css?1684106062" rel="stylesheet"/>
+    <style>
+      @import url('https://rsms.me/inter/inter.css');
+      :root {
+      	--tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+      }
+      body {
+      	font-feature-settings: "cv03", "cv04", "cv11";
+      }
+    </style>
+  </head>
+  <body >
+    <script src="./dist/js/demo-theme.min.js?1684106062"></script>
+    <div class="page">
+      <!-- Navbar 包括一切最顶上的东西-->
+      <header class="navbar navbar-expand-md d-print-none">
+        <div class="container-xl">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
+                  aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
+            <a href="./index.html">
+              aiTra
+            </a>
+          </h1>
+          <!--          源代码和支持-->
+          <div class="navbar-nav flex-row order-md-last">
+            <div class="nav-item d-none d-md-flex me-3">
+              <div class="btn-list">
+                <a href="#" class="btn" target="_blank" rel="noreferrer">
+                  <!-- Download SVG icon from http://tabler-icons.io/i/brand-github -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                       viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                       stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"/>
+                  </svg>
+                  源代码
+                </a>
+                <a href="#" class="btn" target="_blank" rel="noreferrer">
+                  <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon text-pink" width="24" height="24"
+                       viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                       stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"/>
+                  </svg>
+                  支持
+                </a>
+              </div>
+            </div>
+            <!--            两个按钮-->
+            <div class="d-none d-md-flex">
+              <a href="?theme=dark" class="nav-link px-0 hide-theme-dark" title="Enable dark mode"
+                 data-bs-toggle="tooltip"
+                 data-bs-placement="bottom">
+                <!-- Download SVG icon from http://tabler-icons.io/i/moon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                     stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                     stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"/>
+                </svg>
+              </a>
+              <a href="?theme=light" class="nav-link px-0 hide-theme-light" title="Enable light mode"
+                 data-bs-toggle="tooltip"
+                 data-bs-placement="bottom">
+                <!-- Download SVG icon from http://tabler-icons.io/i/sun -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                     stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                     stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/>
+                  <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"/>
+                </svg>
+              </a>
+              <div class="nav-item dropdown d-none d-md-flex me-3">
+                <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1"
+                   aria-label="Show notifications">
+                  <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                       viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                       stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"/>
+                    <path d="M9 17v1a3 3 0 0 0 6 0v-1"/>
+                  </svg>
+                  <span class="badge bg-red"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-end dropdown-menu-card">
+                  <div class="card">
+                    <div class="card-header">
+                      <h3 class="card-title">Last updates</h3>
+                    </div>
+                    <div class="list-group list-group-flush list-group-hoverable">
+                      <div class="list-group-item">
+                        <div class="row align-items-center">
+                          <div class="col-auto"><span
+                                  class="status-dot status-dot-animated bg-red d-block"></span></div>
+                          <div class="col text-truncate">
+                            <a href="#" class="text-body d-block">Example 1</a>
+                            <div class="d-block text-muted text-truncate mt-n1">
+                              Change deprecated html tags to text decoration classes (#29604)
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <a href="#" class="list-group-item-actions">
+                              <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon text-muted"
+                                   width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                                   stroke="currentColor" fill="none" stroke-linecap="round"
+                                   stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/>
+                              </svg>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="list-group-item">
+                        <div class="row align-items-center">
+                          <div class="col-auto"><span class="status-dot d-block"></span></div>
+                          <div class="col text-truncate">
+                            <a href="#" class="text-body d-block">Example 2</a>
+                            <div class="d-block text-muted text-truncate mt-n1">
+                              justify-content:between ⇒ justify-content:space-between (#29734)
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <a href="#" class="list-group-item-actions show">
+                              <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon text-yellow"
+                                   width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                                   stroke="currentColor" fill="none" stroke-linecap="round"
+                                   stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"/>
+                              </svg>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--            登录头像 隐藏ing-->
+            <div class="nav-item dropdown d-none" id="user-info">
+              <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown"
+                 aria-label="Open user menu">
+                <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)"></span>
+                <div class="d-none d-xl-block ps-2">
+                  <div id="user-email"></div>
+                  <div class="mt-1 small text-muted">UI Designer</div>
+                </div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <a href="#" class="dropdown-item" >Status</a>
+                <a href="acenter.html" class="dropdown-item" >账号中心</a>
+                <div class="dropdown-divider"></div>
+                <a href="settings.html" class="dropdown-item">Settings</a>
+                <a  class="dropdown-item" id="logout-button">退出登录</a>
+              </div>
+            </div>
+
+            <!-- 登录按钮 -->
+            <div class="nav-item d-none d-md-flex">
+              <a href="sign-in.html" class="btn btn-outline-primary me-2" id="login-button">登录</a>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+
+      <div class="page-wrapper">
+        <!-- Page header -->
+        <div class="page-header d-print-none">
+          <div class="container-xl">
+            <div class="row g-2 align-items-center">
+              <div class="col">
+                <h2 class="page-title">
+                  账号中心
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page body -->
+        <div class="page-body">
+          <div class="container-xl">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-3 d-none d-md-block border-end">
+                  <div class="card-body">
+                    <h4 class="subheader">Business settings</h4>
+                    <div class="list-group list-group-transparent">
+                      <a href="./settings.html" class="list-group-item list-group-item-action d-flex align-items-center">我的账号</a>
+                      <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">我的通知</a>
+                      <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">绑定应用</a>
+                    </div>
+                    <h4 class="subheader mt-4">历史</h4>
+                    <div class="list-group list-group-transparent">
+                      <a href="./acenterhistory.html" class="list-group-item list-group-item-action active" id="acenterhistory">翻译记录</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-flex flex-column">
+                  <div class="card-body">
+                    <div id="history-list">
+                      <!-- History records will be injected here -->
+                    </div>
+<!--                    todo显示历史记录-->
+                    </div>
+<!--                  分页页码-->
+                  <ul class="pagination " id="page-list" >
+                    <li class="page-item disabled" id="page-list-uppage">
+                      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                        <!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
+                        上一页
+                      </a>
+                    </li>
+<!--                     页码位置-->
+                  </ul>
+<!--                  分页页码结束-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--        页脚内容-->
+        <footer class="footer footer-transparent d-print-none">
+          <div class="container-xl">
+            <div class="row text-center align-items-center flex-row-reverse">
+              <div class="col-lg-auto ms-lg-auto">
+                <ul class="list-inline list-inline-dots mb-0">
+                  <li class="list-inline-item"><a href="#" target="_blank"
+                                                  class="link-secondary" rel="noopener">文档</a></li>
+                  <li class="list-inline-item"><a href="./license.html" class="link-secondary">许可证</a>
+                  </li>
+                  <li class="list-inline-item"><a href="#" target="_blank"
+                                                  class="link-secondary" rel="noopener">源码</a></li>
+                  <li class="list-inline-item">
+                    <a href="#" target="_blank" class="link-secondary"
+                       rel="noopener">
+                      <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                           class="icon text-pink icon-filled icon-inline" width="24" height="24"
+                           viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                           stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"/>
+                      </svg>
+                      支持
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-auto mt-3 mt-lg-0">
+                <ul class="list-inline list-inline-dots mb-0">
+                  <li class="list-inline-item">
+                    Copyright &copy; 2024
+                    <a href="src" class="link-secondary">aiTra</a>.
+                    All rights reserved.
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="./changelog.html" class="link-secondary" rel="noopener">
+                      v1.0.0
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- Libs JS -->
+    <!-- Tabler Core -->
+    <script src="./dist/js/tabler.min.js?1684106062" defer></script>
+    <script src="./dist/js/demo.min.js?1684106062" defer></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+      $(document).on('click','#page-list-nextpage',function (event){
+        event.preventDefault();
+
+        // 使用 jQuery 选择器找到具有 "active" 类的元素，并获取其中的文本内容
+        var activeText = parseInt($(".page-item.active .page-link").text()) + 1;
+        var tempemail = $('#user-email').text();
+        var pageList = $("#page-list");
+        var historyList = $("#history-list");
+        console.log(activeText);
+        $.ajax({
+          url: "http://localhost:8080/translate/history",
+          type: "GET",
+          data: {
+            userEmail: tempemail,
+            current: activeText
+          },
+          success: function (data) {
+              if(activeText <= data.pages){
+                historyList.html("");
+                if(data.pages >1){
+                  pageList.html("<li class=\"page-item \" id=\"page-list-uppage\">\n" +
+                          "                      <a class=\"page-link\" href=\"\" tabindex=\"-1\" aria-disabled=\"true\">\n" +
+                          "                        <!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->\n" +
+                          "                        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M15 6l-6 6l6 6\" /></svg>\n" +
+                          "                        上一页\n" +
+                          "                      </a>\n" +
+                          "                    </li>");
+                  var temppages = data.pages;
+                  for(var i=1;i<=temppages;i++){
+                    if(i === data.current){
+                      pageList.append(`
+                       <li class="page-item active"><a class="page-link" href="#">${i}</a></li>
+                      `);
+                    }else{
+                      pageList.append(`
+                       <li class="page-item"><a class="page-link" href="#">${i}</a></li>
+                      `);
+                    }
+                  }
+                  pageList.append(`
+                    <li class="page-item" id="page-list-nextpage">
+                      <a class="page-link" href="" >
+                        下一页
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                      </a>
+                    </li>
+                    `);
+
+
+                }
+                if (data.records.length > 0) {
+                  $.each(data.records, function (index, records) {
+                    var recordDiv = $("<div>").addClass("records");
+                    recordDiv.html(`
+              <div><strong>原文:</strong> ${records.sourceText}</div>
+              <div><strong>翻译后:</strong> ${records.translatedText}</div>
+              <div><strong>原文语言:</strong> ${records.sourceLangName}</div>
+              <div><strong>目标语言:</strong> ${records.targetLangName}</div>
+              <div><strong>翻译时间:</strong> ${records.translatedAt}</div>
+              <hr>
+            `);
+                    historyList.append(recordDiv);
+                  });
+                } else {
+                  historyList.html("没有历史记录");
+                }
+              }
+
+            if(activeText >= data.pages){
+              activeText = data.pages;
+              $('#page-list-nextpage').addClass('disabled');
+            }
+
+          },
+          error: function (error) {
+            historyList.html("加载失败，请重试");
+            console.error('Error fetching history:', error);
+          }
+        });
+      });
+
+
+      $(document).on('click','#page-list-uppage',function (event){
+        event.preventDefault();
+
+        // 使用 jQuery 选择器找到具有 "active" 类的元素，并获取其中的文本内容
+        var activeText = parseInt($(".page-item.active .page-link").text()) - 1;
+        var tempemail = $('#user-email').text();
+        var pageList = $("#page-list");
+        var historyList = $("#history-list");
+        console.log(activeText);
+        $.ajax({
+          url: "http://localhost:8080/translate/history",
+          type: "GET",
+          data: {
+            userEmail: tempemail,
+            current: activeText
+          },
+          success: function (data) {
+            if(activeText <= data.pages && activeText >=1){
+              historyList.html("");
+              if(data.pages >1){
+                pageList.html("<li class=\"page-item \" id=\"page-list-uppage\">\n" +
+                        "                      <a class=\"page-link\" href=\"\" tabindex=\"-1\" aria-disabled=\"true\">\n" +
+                        "                        <!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->\n" +
+                        "                        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M15 6l-6 6l6 6\" /></svg>\n" +
+                        "                        上一页\n" +
+                        "                      </a>\n" +
+                        "                    </li>");
+                var temppages = data.pages;
+                for(var i=1;i<=temppages;i++){
+                  if(i === data.current){
+                    pageList.append(`
+                       <li class="page-item active"><a class="page-link" href="#">${i}</a></li>
+                      `);
+                  }else{
+                    pageList.append(`
+                       <li class="page-item"><a class="page-link" href="#">${i}</a></li>
+                      `);
+                  }
+                }
+                pageList.append(`
+                    <li class="page-item" id="page-list-nextpage">
+                      <a class="page-link" href="" >
+                        下一页
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                      </a>
+                    </li>
+                    `);
+
+
+              }
+              if (data.records.length > 0) {
+                $.each(data.records, function (index, records) {
+                  var recordDiv = $("<div>").addClass("records");
+                  recordDiv.html(`
+              <div><strong>原文:</strong> ${records.sourceText}</div>
+              <div><strong>翻译后:</strong> ${records.translatedText}</div>
+              <div><strong>原文语言:</strong> ${records.sourceLangName}</div>
+              <div><strong>目标语言:</strong> ${records.targetLangName}</div>
+              <div><strong>翻译时间:</strong> ${records.translatedAt}</div>
+              <hr>
+            `);
+                  historyList.append(recordDiv);
+                });
+              } else {
+                historyList.html("没有历史记录");
+              }
+            }
+
+            if(activeText <= 1){
+              activeText = 1;
+              $('#page-list-uppage').addClass('disabled');
+            }
+
+          },
+          error: function (error) {
+            historyList.html("加载失败，请重试");
+            console.error('Error fetching history:', error);
+          }
+        });
+      });
+
+
+      $(document).ready(function () {
+
+        // Perform the AJAX request to check the login status
+        $.ajax({
+          url: 'http://localhost:8080/user/status',
+          method: 'GET',
+          xhrFields: {
+            withCredentials: true
+          },
+          crossDomain: true,
+          success: function (response) {
+            if (response.status === 'logged_in') {
+              $('#login-button').hide();
+              $('#user-email').text(response.useremail);
+              $('#user-info').removeClass('d-none');
+              var pageList = $("#page-list");
+              var historyList = $("#history-list");
+              historyList.html("加载中...");
+
+
+              var tempemail = $('#user-email').text();
+              $.ajax({
+                url: "http://localhost:8080/translate/history",
+                type: "GET",
+                data: {
+                  userEmail: tempemail,
+                  current: 1
+                },
+                success: function (data) {
+                  historyList.html("");
+                  if(data.pages >1){
+                    var temppages = data.pages;
+                    for(var i=1;i<=temppages;i++){
+                      if(i === 1){
+                        pageList.append(`
+                       <li class="page-item active"><a class="page-link" href="#">${i}</a></li>
+                      `);
+                      }else {
+                        pageList.append(`
+                       <li class="page-item"><a class="page-link" href="#">${i}</a></li>
+                      `);
+                      }
+
+
+                    }
+                    pageList.append(`
+                    <li class="page-item">
+                      <a class="page-link" href="" id="page-list-nextpage">
+                        下一页
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                      </a>
+                    </li>
+                    `);
+
+                  }
+                  if (data.records.length > 0) {
+                    $.each(data.records, function (index, records) {
+                      var recordDiv = $("<div>").addClass("records");
+                      recordDiv.html(`
+              <div><strong>原文:</strong> ${records.sourceText}</div>
+              <div><strong>翻译后:</strong> ${records.translatedText}</div>
+              <div><strong>原文语言:</strong> ${records.sourceLangName}</div>
+              <div><strong>目标语言:</strong> ${records.targetLangName}</div>
+              <div><strong>翻译时间:</strong> ${records.translatedAt}</div>
+              <hr>
+            `);
+                      historyList.append(recordDiv);
+                    });
+                  } else {
+                    historyList.html("没有历史记录");
+                  }
+                },
+                error: function (error) {
+                  historyList.html("加载失败，请重试");
+                  console.error('Error fetching history:', error);
+                }
+              });
+
+
+            } else {
+              $('#login-button').show();
+              $('#user-info').addClass('d-none');
+            }
+
+
+          },
+          error: function () {
+            console.error('Error checking login status');
+          }
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('#logout-button').click(function (event) {
+          event.preventDefault();
+          $.ajax({
+            url: 'http://localhost:8080/alogout',
+            type: 'POST',
+            xhrFields: {
+              withCredentials: true
+            },
+            crossDomain: true,
+            success: function (response) {
+
+              window.location.href = './index.html';
+            },
+            error: function (xhr, status, error) {
+              alert('退出登录失败，请重试。');
+            }
+          });
+        });
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuItems = document.querySelectorAll(".list-group-item");
+        const sections = document.querySelectorAll("[data-section]");
+
+        menuItems.forEach(item => {
+          item.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            // Remove active class from all menu items
+            menuItems.forEach(i => i.classList.remove("active"));
+            // Add active class to the clicked menu item
+            this.classList.add("active");
+
+            // Get the target section
+            const target = this.getAttribute("data-target");
+
+            // Hide all sections
+            sections.forEach(section => section.style.display = "none");
+
+            // Show the target section
+            document.querySelector(`[data-section="${target}"]`).style.display = "flex";
+          });
+        });
+      });
+
+      $(document).ready(function() {
+        // 监听点击事件
+        $(".list-group-item").click(function() {
+          // 判断点击了哪个链接
+          var clickedText = $(this).text();
+          switch (clickedText) {
+            case "我的账号":
+              // 处理“我的账号”链接的点击
+              console.log("点击了我的账号");
+              // 在这里添加处理“我的账号”链接点击的代码
+              window.location.href = './acenter.html';
+
+              break;
+            case "我的通知":
+              // 处理“我的通知”链接的点击
+              console.log("点击了我的通知");
+              // 在这里添加处理“我的通知”链接点击的代码
+              break;
+            case "绑定应用":
+              // 处理“绑定应用”链接的点击
+              console.log("点击了绑定应用");
+              // 在这里添加处理“绑定应用”链接点击的代码
+              break;
+            case "翻译记录":
+              // 处理“翻译记录”链接的点击
+              console.log("点击了翻译记录");
+              // 在这里添加处理“翻译记录”链接点击的代码
+              window.location.href = './acenterhistory.html';
+              break;
+            default:
+              // 默认情况
+              console.log("未知链接被点击");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

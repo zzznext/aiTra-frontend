@@ -1,0 +1,48 @@
+/* 自定义样式 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+.translate-selection {
+    margin: 20px 0;
+}
+.translate-selection button {
+    margin-right: 10px;
+}
+.translation-area {
+    display: flex;
+    margin-top: 20px;
+}
+.translation-box, .language-select {
+    width: 50%;
+}
+.language-switch {
+    margin-bottom: 20px;
+}
+/* 调整切换按钮宽度 */
+.switch-btn {
+    white-space: nowrap; /* 防止按钮内的文字换行 */
+    width: auto; /* 自动根据内容调整宽度 */
+    padding: 0.375rem 0.75rem; /* Bootstrap默认的按钮内边距 */
+}
+.footer {
+    margin-top: auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none; /* 去除默认的下划线 */
+    outline: none;	/* 去除旧版浏览器的点击后的外虚线框 */
+    color: white;	/* 去除默认的颜色和点击后变化的颜色 */
+}

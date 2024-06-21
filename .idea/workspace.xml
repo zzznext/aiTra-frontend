@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06bc0cc8-e96f-44bb-8b93-b3caf04048c9" name="Changes" comment="aiTra前端">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acenter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acenterhistory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/demo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/demo.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/demo.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-flags.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-flags.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-flags.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-flags.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-payments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-payments.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-payments.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-payments.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-social.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-social.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-social.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-vendors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-vendors.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-vendors.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler-vendors.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tabler.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/es-ct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gb-nir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/un.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/flags/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/2checkout-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/2checkout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/alipay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/alipay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/amazon-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/amazon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/americanexpress-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/americanexpress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/applepay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/applepay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/bancontact-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/bancontact.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/bitcoin-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/bitcoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/bitpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/bitpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/blik-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/blik.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/cirrus-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/cirrus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/clickandbuy-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/clickandbuy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/coinkite-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/coinkite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/dinersclub-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/dinersclub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/directdebit-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/directdebit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/discover-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/discover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/dotpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/dotpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/dwolla-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/dwolla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ebay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ebay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/epayco-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/epayco.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/eway-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/eway.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/giropay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/giropay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/googlewallet-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/googlewallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ingenico-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ingenico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/jcb-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/jcb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/klarna-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/klarna.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/laser-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/laser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/maestro-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/maestro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/mastercard-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/mastercard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/mir-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/mir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/monero-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/monero.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/neteller-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/neteller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ogone-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ogone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/okpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/okpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/paybox-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/paybox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/paymill-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/paymill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/payone-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/payone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/payoneer-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/payoneer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/paypal-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/paypal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/paysafecard-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/paysafecard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/payu-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/payu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/payza-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/payza.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/przelewy24-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/przelewy24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ripple-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ripple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/sage-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/sage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/sepa-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/sepa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/shopify-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/shopify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/skrill-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/skrill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/solo-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/solo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/square-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/stripe-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/stripe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/switch-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/switch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/tpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/tpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ukash-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/ukash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/unionpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/unionpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/verifone-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/verifone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/verisign-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/verisign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/visa-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/webmoney-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/webmoney.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/westernunion-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/westernunion.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/worldpay-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/payments/worldpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/demo-theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/demo-theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/tabler.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/tabler.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/tabler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/tabler.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/apexcharts.amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/apexcharts.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/apexcharts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/apexcharts.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/apexcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/apexcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/ar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/cs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/el.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/et.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/fi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/he.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/hi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/hr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/hu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/hy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/ja.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/ka.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/ko.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/lt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/lv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/nb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/nl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/pl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/pt-br.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/pt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/rs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/ru.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/se.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/sk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/sl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/sq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/th.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/tr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/ua.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/zh-cn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/apexcharts/dist/locales/zh-tw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/countup.js/dist/countUp.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/countup.js/dist/countUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/countup.js/dist/countUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/countup.js/dist/countUp.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/countup.js/dist/requestAnimationFrame.polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/basic.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/dropzone-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/dropzone-min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/dropzone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/dropzone.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/dropzone.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/dropzone/dist/dropzone.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/fslightbox/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/fslightbox/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/fslightbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/fslightbox/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/jsvectormap/dist/js/jsvectormap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/jsvectormap/dist/js/jsvectormap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/jsvectormap/dist/maps/world-merc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/jsvectormap/dist/maps/world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/list.js/dist/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/list.js/dist/list.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/list.js/dist/list.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/list.js/dist/list.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/css/litepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/css/plugins/keyboardnav.js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/css/plugins/mobilefriendly.js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/css/plugins/multiselect.js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/css/plugins/ranges.js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/litepicker.amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/litepicker.commonjs2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/litepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/litepicker.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/nocss/litepicker.amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/nocss/litepicker.commonjs2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/nocss/litepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/nocss/litepicker.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/nocss/plugins/keyboardnav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/nocss/plugins/mobilefriendly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/nocss/plugins/multiselect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/nocss/plugins/ranges.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/plugins/keyboardnav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/plugins/mobilefriendly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/plugins/multiselect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/plugins/ranges.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/calendar.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/core.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/datetime.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/interfaces.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/litepicker.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/methods.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/utils.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/litepicker/dist/types/window.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/nouislider/dist/nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/nouislider/dist/nouislider.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/nouislider/dist/nouislider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/nouislider/dist/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/nouislider/dist/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/nouislider/dist/nouislider.min.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/nouislider/dist/nouislider.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.min.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.min.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.polyfilled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.polyfilled.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.polyfilled.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.polyfilled.min.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.polyfilled.min.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.polyfilled.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/plyr/dist/plyr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/star-rating.js/dist/star-rating.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/star-rating.js/dist/star-rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/star-rating.js/dist/star-rating.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/star-rating.js/dist/star-rating.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/star-rating.js/dist/star-rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/star-rating.js/dist/star-rating.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/star-rating.js/dist/star-rating.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/icons/default/icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/icons/default/icons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/icons/default/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/models/dom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/models/dom/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/models/dom/model.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/advlist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/advlist/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/anchor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/anchor/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autolink/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autolink/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autoresize/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autoresize/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autosave/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autosave/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/charmap/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/charmap/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/code/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/code/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/code/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/codesample/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/codesample/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/directionality/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/directionality/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/emoticons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/emoticons/js/emojiimages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/emoticons/js/emojiimages.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/emoticons/js/emojis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/emoticons/js/emojis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/emoticons/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/fullscreen/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/fullscreen/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/help/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/help/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/help/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/image/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/image/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/image/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/importcss/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/importcss/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/insertdatetime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/insertdatetime/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/link/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/link/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/link/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/lists/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/lists/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/media/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/media/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/media/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/nonbreaking/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/nonbreaking/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/pagebreak/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/pagebreak/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/preview/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/preview/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/quickbars/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/quickbars/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/quickbars/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/save/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/save/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/save/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/searchreplace/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/searchreplace/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/table/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/table/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/table/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/template/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/template/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/template/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/visualblocks/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/visualblocks/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/visualchars/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/visualchars/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/wordcount/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/wordcount/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/dark/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/dark/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/default/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/default/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/document/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/document/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/tinymce-5-dark/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/tinymce-5-dark/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/tinymce-5/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/tinymce-5/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/writer/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/content/writer/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide-dark/skin.shadowdom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide/skin.shadowdom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/oxide/skin.shadowdom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5-dark/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5-dark/content.inline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5-dark/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5-dark/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5-dark/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5/content.inline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5/skin.shadowdom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/themes/silver/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/themes/silver/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/themes/silver/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/tinymce.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/tinymce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tinymce/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/caret_position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/caret_position.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/change_listener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/change_listener.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/checkbox_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/checkbox_options.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/clear_button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/clear_button.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/drag_drop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/drag_drop.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/dropdown_header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/dropdown_header.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/dropdown_input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/dropdown_input.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/input_autogrow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/input_autogrow.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/no_active_items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/no_active_items.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/no_backspace_delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/no_backspace_delete.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/optgroup_columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/optgroup_columns.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/remove_button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/remove_button.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/restore_on_backspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/restore_on_backspace.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/virtual_scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/plugins/virtual_scroll.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.base.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.base.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.base.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.complete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.complete.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.complete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.complete.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.popular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.popular.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.popular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs/tom-select/dist/js/tom-select.popular.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forgot-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reset-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign-in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terms-of-service.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "zzznext"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/zzznext/aiTra-frontend",
+    "accountId": "6639f09d-49fa-47c4-8ccf-dfe22e9f170f"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2eUzTLA2xdiWMr4FvZ9QpxNDif3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/aiTra",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\aiTra" />
+      <recent name="D:\aiTra\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\aiTra" />
+      <recent name="D:\aiTra\src" />
+      <recent name="D:\aiTra\src\js" />
+      <recent name="D:\aiTra\src\css" />
+      <recent name="D:\untitled\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" uri="http://localhost:63343/aiTra/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06bc0cc8-e96f-44bb-8b93-b3caf04048c9" name="Changes" comment="" />
+      <created>1711973950083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711973950083</updated>
+      <workItem from="1711973953884" duration="8128000" />
+      <workItem from="1711982239737" duration="599000" />
+      <workItem from="1712146472904" duration="7435000" />
+      <workItem from="1712326744500" duration="8000" />
+      <workItem from="1712575091589" duration="443000" />
+      <workItem from="1713422456935" duration="2659000" />
+      <workItem from="1714272540483" duration="4000" />
+      <workItem from="1715820483227" duration="1718000" />
+      <workItem from="1716356921941" duration="10743000" />
+      <workItem from="1716369769283" duration="12985000" />
+      <workItem from="1716428128926" duration="4071000" />
+      <workItem from="1716687230364" duration="9015000" />
+      <workItem from="1716730140042" duration="1960000" />
+      <workItem from="1716818133069" duration="693000" />
+      <workItem from="1716820107024" duration="1112000" />
+      <workItem from="1716821238606" duration="1568000" />
+      <workItem from="1716824155895" duration="1616000" />
+      <workItem from="1716826045086" duration="30000" />
+      <workItem from="1716862793314" duration="4999000" />
+      <workItem from="1717212855887" duration="1020000" />
+      <workItem from="1717913929773" duration="13079000" />
+      <workItem from="1717935382821" duration="5065000" />
+      <workItem from="1718205163504" duration="1295000" />
+      <workItem from="1718678178338" duration="1584000" />
+      <workItem from="1718713362737" duration="4845000" />
+      <workItem from="1718756866387" duration="17318000" />
+      <workItem from="1718862940265" duration="1210000" />
+      <workItem from="1718936630648" duration="183000" />
+      <workItem from="1718936825738" duration="16000" />
+      <workItem from="1718936849187" duration="741000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aiTra前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="aiTra前端" />
+  </component>
+</project>
